@@ -1,18 +1,18 @@
 {
-  "id": "qwe77889.app.sub",
-  "name": "qwe77889 应用订阅",
-  "author": "@qwe77889",
-  "icon": "qwe77889/Scripts/blob/main/images/labixiaoxin.jpg",
-  "repo": "https://github.com/qwe77889",
+  "id": "Saner0.app.sub",
+  "name": "Saner0 应用订阅",
+  "author": "@Saner0",
+  "icon": "Saner0/Scripts/blob/main/images/labixiaoxin.jpg",
+  "repo": "https://github.com/Saner0",
   "apps": [
     {
-      "id": "ws",
+      "id": "wskey",
       "name": "京东WSKEY",
       "author": "@FoKit",
       "descs_html": ["用于自动抓取京东WSKEY"],
       "icons": [
-        "https://raw.githubusercontent.com/qwe77889/Scripts/main/images/jdjoy.png",
-        "https://raw.githubusercontent.com/qwe77889/Scripts/main/images/jdjoy.png"
+        "https://raw.githubusercontent.com/Saner0/Scripts/main/images/jdjoy.png",
+        "https://raw.githubusercontent.com/Saner0/Scripts/main/images/jdjoy.png"
       ],
       "keys": [
         "WSKEY_AUTO_UPLOAD",
