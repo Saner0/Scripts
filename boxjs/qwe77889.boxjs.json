@@ -6,7 +6,7 @@
   "repo": "https://github.com/qwe77889",
   "apps": [
     {
-      "id": "wskey",
+      "id": "ws",
       "name": "京东WSKEY",
       "author": "@FoKit",
       "descs_html": ["用于自动抓取京东WSKEY"],
