@@ -1,6 +1,6 @@
 /*
 脚本名称：京东 WSKEY
-更新时间：2024/07/27 搬运F大佬
+更新时间：2024/07/27 搬运F大佬修改自用
 使用方法：划掉后台重新打开 京东APP 即可自动抓取 WSKEY。抓完 WSKEY 不能在京东 app 点退出登录（会导致 WSKEY 失效），切换账号的正确姿势是先断网（飞行模式）再点击退出登录，划掉后台重新打开 APP 再登录新的账号。
 
 
@@ -11,9 +11,9 @@ hostname = blackhole.m.jd.com, perf.m.jd.com
 
 [rewrite_local]
 
-https:\/\/blackhole\.m\.jd\.com\/getinfo url script-request-header https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/get_jd_wskey.js
+https:\/\/blackhole\.m\.jd\.com\/getinfo url script-request-header https://raw.githubusercontent.com/qwe77889/Scripts/tree/main/scripts/get_jd_wskey.js
 
-https:\/\/perf\.m\.jd\.com\/app_monitor\/\w{1,}\/getRule url script-request-header https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/get_jd_wskey.js
+https:\/\/perf\.m\.jd\.com\/app_monitor\/\w{1,}\/getRule url script-request-header https://raw.githubusercontent.com/qwe77889/Scripts/tree/main/scripts/get_jd_wskey.js
 
 ------------------------------------------------
  */
@@ -80,7 +80,7 @@ async function GetCookie() {
 
     // 拼接 wskey
     if ($.jd_temp?.['wskey'] && $.jd_temp?.['pin']) {
-      $.cookie = `wskey=${$.jd_temp['wskey']}; pin=${$.jd_temp['pin']};`;
+      $.cookie = `pin=${$.jd_temp['pin']};wskey=${$.jd_temp['wskey']};`;
 
       // 使用 find() 方法找到与 pin 匹配的对象，以新增或更新用户 WSKEY
       const user = $.wskeyList.find(user => user.userName === $.jd_temp['pin']);
