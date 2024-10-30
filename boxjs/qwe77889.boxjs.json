@@ -11,8 +11,8 @@
       "author": "@FoKit",
       "descs_html": ["用于自动抓取京东WSKEY"],
       "icons": [
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/sync.png",
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/sync.png"
+        "https://raw.githubusercontent.com/qwe77889/Scripts/main/images/jdjoy.png",
+        "https://raw.githubusercontent.com/qwe77889/Scripts/main/images/jdjoy.png"
       ],
       "keys": [
         "WSKEY_AUTO_UPLOAD",
