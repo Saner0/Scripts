@@ -8,7 +8,7 @@
     {
       "id": "wskey",
       "name": "京东WSKEY",
-      "author": "@qwe77889",
+      "author": "@FoKit",
       "descs_html": ["用于自动抓取京东WSKEY"],
       "icons": [
         "https://raw.githubusercontent.com/qwe77889/Scripts/main/images/jdjoy.png",
